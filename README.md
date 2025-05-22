@@ -4,26 +4,26 @@ A data‑science exploration of **YouTube’s Trending Videos** dataset that unc
 
 ---
 
-## 🌟 Project Highlights
+##  Project Highlights
 
-| 🗝️ Question                                             | 🔍 Key Finding                                                                                              |
+|  Question                                             |  Key Finding                                                                                              |
 | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **What keeps a video on the Trending list the longest?** | Sustained engagement (views & likes), not metadata such as title length or tag count.                       |
 | **Does title sentiment matter?**                         | Viral titles are *slightly* more polarised—emotion helps, but it isn’t a silver bullet.                     |
 | **When should I publish?**                               | Friday afternoon (local time) maximises viral potential; early‑morning uploads also catch global audiences. |
-| **Which categories cross borders?**                      | Music, Entertainment & News dominate international trending; Gaming & Comedy thrive locally.                |
+| **Which categories cross borders?**                      | Music, Entertainment & News dominate international trending; Gaming \& Comedy thrive locally.                |
 
 *(Details, code and statistical tests appear in the notebook and full report.)*
 
 ---
 
-## 🗂️ Repository Contents
+## Repository Contents
 
 ```
 ├── DataScience-Assignment-2.ipynb          # Full, reproducible Jupyter notebook (EDA → hypothesis tests → visuals)
 ├── DataScience-Assignment-2-Report.pdf     # Polished academic‑style report (9 pages)
 ├── figures/
-│   ├── bar1.png        # Average Views by Category & Region
+│   ├── bar1.png        # Average Views by Category \& Region
 │   ├── bar2.png        # Top Video Categories by Avg Views per Region
 │   ├── bar3.png        # Average Views by Day of Week
 │   ├── bar4.png        # Categories of Global vs Local Trending Videos
@@ -40,7 +40,7 @@ A data‑science exploration of **YouTube’s Trending Videos** dataset that unc
 │   ├── other8.png      # Dislike Ratio vs Views
 │   ├── other9.png      # Avg Views by Publish Hour per Category (Global)
 │   └── other10.png     # Comment Heat Index Over First 3 Trending Days
-└── README.md                                # You are here 😊                                # You are here 😊
+└── README.md                             
 ```
 
 %├── DataScience-Assignment-2.ipynb          # Full, reproducible Jupyter notebook (EDA → hypothesis tests → visuals) ├── DataScience-Assignment-2-Report.pdf     # Polished academic‑style report (9 pages) ├── figures/ │   ├── bar1.png        # Average Views by Category & Region │   ├── bar2.png        # Top Video Categories by Avg Views per Region │   ├── bar3.png        # Average Views by Day of Week │   ├── bar4.png        # Categories of Global vs Local Trending Videos │   ├── hist1.png       # Distribution of Dislike Ratio │   ├── hist2.png       # Publishing Hour of Viral Videos │   ├── kde.png         # Sentiment Score Distribution (Viral vs Non‑viral) │   ├── other1.png      # Top Trending Channels Globally │   ├── other2.png      # Top Categories by Avg Views (Global) │   └── other3.png      # Average Views by Hour of Day └── README.md                                # You are here 😊
@@ -51,7 +51,7 @@ A data‑science exploration of **YouTube’s Trending Videos** dataset that unc
 
 ---
 
-## 📚 Dataset
+## Dataset
 
 - **Source:** Kaggle – [Trending YouTube Video Statistics](https://www.kaggle.com/datasets/datasnaek/youtube-new)
 - **Observations:** ≈4.1 M rows spanning 🇺🇸 US, 🇬🇧 GB, 🇮🇳 IN, 🇰🇷 KR, 🇫🇷 FR, 🇯🇵 JP, 🇷🇺 RU…
@@ -59,7 +59,7 @@ A data‑science exploration of **YouTube’s Trending Videos** dataset that unc
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 > Tested with **Python 3.10** on macOS, Linux and Windows.
 
@@ -163,7 +163,7 @@ ipykernel
 
 **Distribution of Dislike Ratio**
 ![Distribution of Dislike Ratio](figures/hist1.png)
-*The distribution is heavily right‑skewed—over 80 \% of videos receive <5 % dislikes.*
+*The distribution is heavily right‑skewed—over 80 \% of videos receive <5 \% dislikes.*
 
 **Dislike Ratio vs Views**
 ![Dislike Ratio vs Views](figures/other8.png)
@@ -183,7 +183,7 @@ ipykernel
 
 **Categories of Global vs Local Trending Videos**
 ![Categories of Global vs Local Trending Videos](figures/bar4.png)
-*Music & Entertainment dominate global charts; Sports, Comedy and Gaming trend primarily within their home regions.*
+*Music \& Entertainment dominate global charts; Sports, Comedy and Gaming trend primarily within their home regions.*
 
 **Top Trending Channels Globally**
 ![Top Trending Channels Globally](figures/other1.png)
@@ -191,7 +191,7 @@ ipykernel
 
 **Top Categories by Average Views (Global)**
 ![Top Categories by Average Views](figures/other2.png)
-*Music outpaces the next best category (Non‑profits & Activism) by \~2× on average views.*
+*Music outpaces the next best category (Non‑profits \& Activism) by \~2× on average views.*
 
 ---
 
@@ -200,7 +200,7 @@ ipykernel
 * **Engagement is king.** Videos with high like‑to‑view ratios and comment activity stay on the Trending tab up to **5× longer** than those relying on click‑bait metadata alone.
 * **Timing matters.** Publishing **Friday 14:00–18:00 local** lifts median views by \~34 \% within the first 48 h.
 * **Optimal metadata window.** 10–30 tags and 30–70‑character titles maximise discoverability without triggering spam penalties.
-* **Regional flavour.** Music transcends borders; Gaming & Comedy skew towards India and Korea; activism spikes in US/GB.
+* **Regional flavour.** Music transcends borders; Gaming \& Comedy skew towards India and Korea; activism spikes in US/GB.
 * **Controversy ≠ staying power.** High dislike ratios (<‑0.3 sentiment) may spark bursts of attention but halve trending duration.
 
 Detailed explanations, statistical outputs and additional plots live in the notebook & PDF.
@@ -212,7 +212,7 @@ Detailed explanations, statistical outputs and additional plots live in the note
 PRs welcome! Feel free to open issues for bugs, novel visual ideas, or requests to add further datasets (e.g., shorts, livestream metrics).
 
 1. Fork ➡️ branch ➡️ commit (with conventional commits) ➡️ PR.
-2. Run `pre‑commit run --all-files` before pushing – linting & black formatting enforced.
+2. Run `pre‑commit run --all-files` before pushing – linting \& black formatting enforced.
 
 ---
 
@@ -224,6 +224,6 @@ Distributed under the **MIT License** – see `LICENSE` for full text.
 
 ## Contact
 
-**Mahla Entezari** · `MahlaEntezari.sbu@gmail.com` · [LinkedIn](https://linkedin.com/in/mahla-entezari)
+**Mahla Entezari** · `MahlaEntezariii@gmail.com` · [LinkedIn](https://linkedin.com/in/mahla-entezari)
 
 > *If you use this repo in academic work, please cite the Kaggle dataset and this repository.*
