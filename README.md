@@ -91,7 +91,7 @@ ipykernel
 
 ---
 
-## 🚀 How to Reproduce the Analysis
+##  How to Reproduce the Analysis
 
 1. **Launch JupyterLab/Notebook**
 
@@ -109,11 +109,11 @@ ipykernel
 
 ---
 
-## 📊 Selected Figures & Analysis
+## 📊 Selected Figures \& Analysis
 
-### 1. Regional & Category Patterns
+### 1. Regional \& Category Patterns
 
-**Average Views by Category & Region**
+**Average Views by Category \& Region**
 ![Average Views by Category and Region](figures/bar1.png)
 *Music, Entertainment and News consistently sit at the top across most markets, but notice Comedy and Gaming spiking only in India and Korea, hinting at strong local sub‑cultures.*
 
@@ -127,7 +127,7 @@ ipykernel
 
 **Average Views by Day of Week**
 ![Average Views by Day of Week](figures/bar3.png)
-*Friday uploads enjoy a \~35 % boost over the weekly mean, validating the “publish before the weekend” folklore.*
+*Friday uploads enjoy a \~35 \% boost over the weekly mean, validating the “publish before the weekend” folklore.*
 
 **Publishing Hour of Viral Videos**
 ![Publishing Hour of Viral Videos](figures/hist2.png)
@@ -143,7 +143,7 @@ ipykernel
 
 ---
 
-### 3. Metadata & Title Engineering
+### 3. Metadata \& Title Engineering
 
 **Title Length vs Views**
 ![Title Length vs Views](figures/other5.png)
@@ -159,23 +159,23 @@ ipykernel
 
 ---
 
-### 4. Engagement & Audience Reaction
+### 4. Engagement \& Audience Reaction
 
 **Distribution of Dislike Ratio**
 ![Distribution of Dislike Ratio](figures/hist1.png)
-*The distribution is heavily right‑skewed—over 80 % of videos receive <5 % dislikes.*
+*The distribution is heavily right‑skewed—over 80 \% of videos receive <5 % dislikes.*
 
 **Dislike Ratio vs Views**
 ![Dislike Ratio vs Views](figures/other8.png)
-*Videos can withstand moderate backlash, but beyond a 30 % dislike ratio view‑counts collapse.*
+*Videos can withstand moderate backlash, but beyond a 30 \% dislike ratio view‑counts collapse.*
 
 **Engagement Ratio vs Views**
 ![Engagement Ratio vs Views](figures/other7.png)
-*Like‑plus‑comment engagement above 5 % correlates strongly with sustained growth; below 1 % is a red flag.*
+*Like‑plus‑comment engagement above 5 \% correlates strongly with sustained growth; below 1 \% is a red flag.*
 
 **Comment Heat‑Index Over First 3 Trending Days**
 ![Comment Heat Index Over First 3 Trending Days](figures/other10.png)
-*Controversial videos ignite faster but cool \~15 % quicker, implying shorter shelf‑life.*
+*Controversial videos ignite faster but cool \~15 \% quicker, implying shorter shelf‑life.*
 
 ---
 
@@ -195,10 +195,10 @@ ipykernel
 
 ---
 
-## 🔑 Key Insights (TL;DR)
+##  Key Insights (TL;DR)
 
 * **Engagement is king.** Videos with high like‑to‑view ratios and comment activity stay on the Trending tab up to **5× longer** than those relying on click‑bait metadata alone.
-* **Timing matters.** Publishing **Friday 14:00–18:00 local** lifts median views by \~34 % within the first 48 h.
+* **Timing matters.** Publishing **Friday 14:00–18:00 local** lifts median views by \~34 \% within the first 48 h.
 * **Optimal metadata window.** 10–30 tags and 30–70‑character titles maximise discoverability without triggering spam penalties.
 * **Regional flavour.** Music transcends borders; Gaming & Comedy skew towards India and Korea; activism spikes in US/GB.
 * **Controversy ≠ staying power.** High dislike ratios (<‑0.3 sentiment) may spark bursts of attention but halve trending duration.
@@ -207,7 +207,7 @@ Detailed explanations, statistical outputs and additional plots live in the note
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 PRs welcome! Feel free to open issues for bugs, novel visual ideas, or requests to add further datasets (e.g., shorts, livestream metrics).
 
@@ -216,13 +216,13 @@ PRs welcome! Feel free to open issues for bugs, novel visual ideas, or requests 
 
 ---
 
-## 📜 License
+## License
 
 Distributed under the **MIT License** – see `LICENSE` for full text.
 
 ---
 
-## 📫 Contact
+## Contact
 
 **Mahla Entezari** · `MahlaEntezari.sbu@gmail.com` · [LinkedIn](https://linkedin.com/in/mahla-entezari)
 
