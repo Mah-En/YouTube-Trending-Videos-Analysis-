@@ -146,10 +146,6 @@ ipykernel
 ![Title Length vs Views](figures/other5.png)
 *There’s a visible clustering between 20‑90 characters. Extremely long titles (>120 chars) almost never go viral, suggesting truncation penalties in YouTube’s UI.*
 
-**Tag Count vs Views**
-![Tag Count vs Views](figures/other4.png)
-*Performance climbs up to \~30 tags and then plateaus, indicating diminishing returns beyond this point.*
-
 **Top 15 Most Common Tags in Trending Videos**
 ![Top 15 Most Common Tags](figures/other6.png)
 *Generic humour tags (“funny”, “comedy”) dominate; the hefty `[none]` bar hints at YouTube autofill metadata for major publishers.*
