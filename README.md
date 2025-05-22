@@ -43,9 +43,6 @@ A data‑science exploration of **YouTube’s Trending Videos** dataset that unc
 └── README.md                             
 ```
 
-%├── DataScience-Assignment-2.ipynb          # Full, reproducible Jupyter notebook (EDA → hypothesis tests → visuals) ├── DataScience-Assignment-2-Report.pdf     # Polished academic‑style report (9 pages) ├── figures/ │   ├── bar1.png        # Average Views by Category & Region │   ├── bar2.png        # Top Video Categories by Avg Views per Region │   ├── bar3.png        # Average Views by Day of Week │   ├── bar4.png        # Categories of Global vs Local Trending Videos │   ├── hist1.png       # Distribution of Dislike Ratio │   ├── hist2.png       # Publishing Hour of Viral Videos │   ├── kde.png         # Sentiment Score Distribution (Viral vs Non‑viral) │   ├── other1.png      # Top Trending Channels Globally │   ├── other2.png      # Top Categories by Avg Views (Global) │   └── other3.png      # Average Views by Hour of Day └── README.md                                # You are here 😊
-
-%````
 
 > **Tip:** If you cloned the repo without LFS, run `git lfs pull` to fetch high‑resolution figures.
 
