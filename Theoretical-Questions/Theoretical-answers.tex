@@ -1,0 +1,150 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage[a4paper, margin=0.6in]{geometry}
+
+\title{Theoretical Questions - Data Science 2nd Assignment}
+\author{Mahla Entezari}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Theoretical Questions}
+
+\subsection*{Question 1:}
+\textbf{Explain the difference between correlation and causation with an example from a real-world dataset.}
+
+\textbf{Answer:} Correlation means two things happen together, but one doesn’t cause the other. Causation means one thing causes another to happen.
+
+\textbf{Example:} In summer, ice cream sales and drowning incidents both go up. They are correlated. But ice cream doesn't cause drowning. Hot weather is the real cause of both.
+
+\subsection*{Question 2:}
+\begin{enumerate}[label=(\alph*)]
+    \item \textbf{What are the major types of issues found in raw data, and how do they affect analysis?}
+    
+    \textbf{Answer:} Common problems in raw data:
+    \begin{itemize}
+        \item Missing values – some data is not there.
+        \item Noisy data – random errors or strange values.
+        \item Inconsistent data – different formats or spelling.
+        \item Duplicate data – repeated entries.
+        \item Outliers – very high or low values that don’t fit.
+    \end{itemize}
+    These problems can lead to wrong results.
+
+    \item \textbf{List the four major tasks of data preprocessing.}
+
+    \textbf{Answer:}
+    \begin{itemize}
+        \item Data Cleaning
+        \item Data Integration
+        \item Data Transformation
+        \item Data Reduction
+    \end{itemize}
+
+    \item \textbf{What are some methods for handling missing values in a dataset?}
+
+    \textbf{Answer:}
+    \begin{itemize}
+        \item Remove rows with missing data
+        \item Fill with average, median, or most common value
+        \item Predict missing values using models
+        \item Use algorithms that handle missing data
+    \end{itemize}
+\end{enumerate}
+
+\subsection*{Question 3:}
+\textbf{Describe the ‘binning’ method for managing noisy data. Give an example.}
+
+\textbf{Answer:} Binning is grouping values into bins (or ranges) and smoothing the values inside each bin. 
+
+\textbf{Example:} For exam scores: 51, 52, 53, 98. You can group into two bins: 50–60 and 90–100. Replace values in each bin with their average (e.g., 52 for the first bin).
+
+\subsection*{Question 4:}
+\begin{enumerate}[label=(\alph*)]
+    \item \textbf{Discuss the importance of data quality in EDA.}
+
+    \textbf{Answer:} If data has errors or is not clean, your results won’t be correct. Outliers and inconsistencies can give false trends or wrong patterns.
+
+    \item \textbf{Scenario where bad data leads to wrong results:}
+
+    \textbf{Answer:} If some prices are wrongly entered as 0, it may look like a business is losing money.
+
+    \item \textbf{How EDA helps fix these problems:}
+
+    \textbf{Answer:} EDA uses:
+    \begin{itemize}
+        \item Graphs to spot outliers
+        \item Summary stats to check data ranges
+        \item Value counts to see duplicates or format errors
+    \end{itemize}
+\end{enumerate}
+
+\subsection*{Question 5:}
+\textbf{What is normalization, and why is it important? Name three methods.}
+
+\textbf{Answer:} Normalization makes all values fall in a similar range, like 0 to 1. It helps compare data fairly.
+
+\textbf{Methods:}
+\begin{itemize}
+    \item Min-Max Scaling
+    \item Z-score Standardization
+    \item Decimal Scaling
+\end{itemize}
+
+\subsection*{Question 6:}
+\textbf{What is the goal of data reduction, and what techniques are commonly used?}
+
+\textbf{Answer:} Data reduction means keeping only useful data to make analysis faster and simpler.
+
+\textbf{Techniques:}
+\begin{itemize}
+    \item Removing unnecessary columns
+    \item Sampling a small part of data
+    \item PCA (Principal Component Analysis)
+\end{itemize}
+
+\subsection*{Question 7:}
+\begin{enumerate}[label=(\alph*)]
+    \item \textbf{Why is data visualization powerful for storytelling?}
+
+    \textbf{Answer:} It helps people quickly understand trends and insights. It makes data easy to follow.
+
+    \item \textbf{Compare simple and storytelling visualizations.}
+
+    \textbf{Answer:} A simple chart shows numbers. A storytelling chart shows a clear message with titles, highlights, and colors. For example, a plain line chart vs. a line chart showing how a new policy changed sales, with notes and colors.
+\end{enumerate}
+
+\subsection*{Question 8:}
+\begin{enumerate}[label=(\alph*)]
+    \item \textbf{What factors decide the best chart type?}
+
+    \textbf{Answer:} It depends on:
+    \begin{itemize}
+        \item Type of data (numbers, categories)
+        \item Goal (compare, show trend, show part of whole)
+        \item Audience (technical or not)
+    \end{itemize}
+
+    \item \textbf{How do distribution charts help in EDA?}
+
+    \textbf{Answer:} They show how values are spread. They answer questions like: Are most values low or high? Are there outliers?
+
+    \item \textbf{How does a heatmap help?}
+
+    \textbf{Answer:} A heatmap of a correlation matrix shows which variables are related. It helps find patterns in many variables.
+\end{enumerate}
+
+\subsection*{Question 9:}
+\textbf{Compare bar charts, line charts, and pie charts.}
+
+\textbf{Answer:}
+\begin{itemize}
+    \item \textbf{Bar chart:} Best for comparing categories.
+    \item \textbf{Line chart:} Best for showing trends over time.
+    \item \textbf{Pie chart:} Shows parts of a whole, but not good for many categories.
+\end{itemize}
+
+\end{document}
